@@ -1,0 +1,190 @@
+{
+  "contractName": "TruffleContract",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor",
+      "signature": "constructor"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a72305820e6dad8eac917c8af6bbaa67eaeafd42fb18533a7342a83f44fcf5d7c2e9a85e80029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a72305820e6dad8eac917c8af6bbaa67eaeafd42fb18533a7342a83f44fcf5d7c2e9a85e80029",
+  "sourceMap": "26:57:1:-;;;55:26;8:9:-1;5:2;;;30:1;27;20:12;5:2;55:26:1;26:57;;;;;;",
+  "deployedSourceMap": "26:57:1:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\n\n\ncontract TruffleContract {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "E:/solidity/contracts/TruffleContract.sol",
+  "ast": {
+    "absolutePath": "/E/solidity/contracts/TruffleContract.sol",
+    "exportedSymbols": {
+      "TruffleContract": [
+        63
+      ]
+    },
+    "id": 64,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 63,
+        "linearizedBaseContracts": [
+          63
+        ],
+        "name": "TruffleContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 61,
+              "nodeType": "Block",
+              "src": "76:5:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 62,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 59,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "66:2:1"
+            },
+            "returnParameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "76:0:1"
+            },
+            "scope": 63,
+            "src": "55:26:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 64,
+        "src": "26:57:1"
+      }
+    ],
+    "src": "0:84:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/E/solidity/contracts/TruffleContract.sol",
+    "exportedSymbols": {
+      "TruffleContract": [
+        63
+      ]
+    },
+    "id": 64,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 63,
+        "linearizedBaseContracts": [
+          63
+        ],
+        "name": "TruffleContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 61,
+              "nodeType": "Block",
+              "src": "76:5:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 62,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 59,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "66:2:1"
+            },
+            "returnParameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "76:0:1"
+            },
+            "scope": 63,
+            "src": "55:26:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 64,
+        "src": "26:57:1"
+      }
+    ],
+    "src": "0:84:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {
+    "4447": {
+      "events": {},
+      "links": {},
+      "address": "0x7d68e361a969D1E6EbA2C4E237044020b4b19f2F",
+      "transactionHash": "0xde62659db94922cebf1b868c98700aba48354c4922f760cf443ea9632be1a1ce"
+    },
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x3553D6379d2BC2Fe269807CF9710B7519E69e084",
+      "transactionHash": "0x8ce2081be74bf811321bf09f68d80ab3e179c1e7e19de0dbd0c9f1f5b53ae7b0"
+    }
+  },
+  "schemaVersion": "3.0.0",
+  "updatedAt": "2019-01-10T07:58:50.013Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
